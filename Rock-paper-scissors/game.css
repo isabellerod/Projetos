@@ -1,0 +1,11 @@
+.container1 {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    font: bold 20px arial;
+    align-self: center;
+}
