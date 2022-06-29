@@ -1,3 +1,8 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .container1 {
     width: 150px;
     display: flex;
@@ -5,7 +10,24 @@
     justify-content: space-between;
 }
 
+input {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
 p {
     font: bold 20px arial;
     align-self: center;
 }
+
+.container2 {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.playerChoice {
+    width: 100%;
+    
+}
+
