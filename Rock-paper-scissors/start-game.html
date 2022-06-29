@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="game.css">
-    <script src="game.js"></script>
+
+    <style>
+        body {
+            background-color: #B2C0D4;
+        }
+
+        h1 {
+            color: black
+        }
+
+        .container{
+            margin: 0;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+
+        .button {
+            font: bold 20px Arial;
+            text-decoration: none;
+            background-color: #6E83EB;
+            color: black;
+            padding: 2px 6px 2px 6px;
+            border-right: 1px solid #3333339a;
+            border-bottom: 1px solid #3333339a;
+        }
+    </style>
 </head>
+
 <body>
 
-    <button class="start-game" type="button">Start game</button>
-    
+    <div class="container">
+
+        <h1>Welcome to rock, paper or scissors game!</h1>
+
+        <div class="center">
+
+            <h1>Press the button to start!</h1>
+
+            <a href="game.html" class="button">Start Game</a>
+
+        </div>
+
+    </div>
 </body>
+
 </html>
