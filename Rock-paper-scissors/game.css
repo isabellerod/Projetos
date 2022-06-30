@@ -1,9 +1,9 @@
-.box {
+.mainBox {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.container1 {
+.box1 {
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -21,9 +21,35 @@ p {
     align-self: center;
 }
 
-.container2 {
+.container1 {
     display: flex;
-    justify-content: space-around;
-    width: 100%; 
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 700px;
+    height: 200px;
+    margin: 50px;
+}
+
+button {
+    width: 100px;
+    align-self: center;
+}
