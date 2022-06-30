@@ -23,11 +23,7 @@ p {
 
 .container2 {
     display: flex;
-    justify-content: space-around;  
-}
-
-.playerChoice {
-    width: 100%;
-    
+    justify-content: space-around;
+    width: 100%; 
 }
 

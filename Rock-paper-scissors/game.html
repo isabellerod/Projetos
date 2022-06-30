@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
     <link rel="stylesheet" href="game.css">
-    <link rel="stylesheet" href="game.js">
 </head>
 
 <body>
 
-    <div class="box">
+    <div class="main-box">
 
-        <div class="container1">
+        <div class="box1">
 
             <p>Select one: </p>
             <input class="rock" type="image" src="Icons/rock.png" />
@@ -23,16 +22,24 @@
 
         </div>
 
-        <div class="container2">
+        <div class="container1">
+            <div class="box2">
 
-            <div class="playerChoice">
-                <p>The player chose: </p>
-                <img src="Icons/paper.png">
+                <div class="playerChoice">
+                    <p>The player chose: </p>
+                    <img src="Icons/paper.png">
+                </div>
+
+                <div class="computerChoice">
+                    <p>The computer chose: </p>
+                    <img src="Icons/paper.png">
+                </div>
+                
             </div>
 
-            <div class="computerChoice">
-                <p>The computer chose: </p>
-                <img src="Icons/paper.png">
+            <div class="box3">
+                <textarea name="winner" id="" cols="30" rows="10"></textarea>
+                <button>Play Again</button>
             </div>
 
         </div>
